@@ -1,0 +1,47 @@
+name: SpicyCoconut
+main: me.bredisrising.spicycoconut.SpicyCoconut
+api-version: 1.18
+version: 1.0
+author: BredIsRising
+description: Prepare to Die!
+
+commands:
+  nick:
+    usage: /nick
+    aliases: [nick]
+    description: nick urself or others
+  startevent:
+    usage: /startevent
+    aliases: [ev]
+    description: start an event
+  stopevent:
+    usage: /stopevent
+    aliases: [stoop]
+    description: stop any event
+  ride:
+    usage: /ride
+    aliases: [ride]
+    description: ride other players
+  setbiome:
+    usage: /setbiome
+    aliases: [setbiome]
+    description: biome
+  getitem:
+    usage: /getitem
+    aliases: [getitem]
+    description: get item
+  invis:
+    usage: /invis
+    aliases: [invis]
+    description : invis
+  createworld:
+    usage: /createworld
+    aliases: [createworld]
+    description: creates world and doesnt override i hope
+  regenchunk:
+    usage: /regenchunk
+    aliases: [regenchunk]
+    description: regens the chunk i hope
+  setskin:
+    usage: /setskin
+    description: set skin
